@@ -1,0 +1,341 @@
+PROPOSAL
+KOMPETISI KEWIRAUSAHAAN MAHASISWA 
+Solusi Digital untuk Optimalisasi Produktivitas Peternakan Ayam Modern (IoTernak)
+
+
+
+
+
+
+
+
+
+
+
+Diusulkan oleh: 
+Ketua Pengusul:Muhammad Luthfi Poeradiredja (NIM : 12323094)Anggota:a. Siti Julaeha (NIM: 12323131)b. Sri Ayatmi (NIM: 12323040 )c. Aji Lesmana (NIM: 12323098)d. Ahmad Rizal Pramuja Dewa (NIM: 12323091) 
+
+
+
+
+
+
+
+
+PROGRAM KOMPETISI KAMPUS MERDEKA
+PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA
+ DAN KOMPUTER
+INSTITUT PRIMA BANGSA CIREBON
+2024
+LEMBAR PENGESAHAN
+A. Judul Usaha:Sistem Pemantauan Berbasis IoT untuk Peternakan Ayam Modern (IoTernak)
+B. Merek Usaha:IoTernakC. Tahapan Usaha:Tahapan AwalD. Kategori Usaha:Bisnis DigitalE. Ketua Pengusul:> Muhammad Luthfi Poeradiredja (NIM : 12323094)F. Anggota Pengusul:> Siti Julaeha (NIM : 12323131)
+> Sri Ayatmi (NIM : 12323040)
+> Aji Lesmana (NIM :12323098)
+> Ahmad Rizal Pramuza Dewa (NIM : 12323091)
+
+
+           Mengetahui,
+   Ketua Prodi PTIK
+
+
+    Indra Maulana, S.Pd. M.KomKetua Pengusul
+
+
+
+   Muhammad Luthfi Poeradiredja Cirebon, 11 Januari 2025
+
+DAFTAR ISI
+
+
+LEMBAR PENGESAHAN	II
+DAFTAR ISI	III
+BAB I	1
+PENDAHULUAN	1
+A. LATAR BELAKANG	1
+B. LANDASAN TEORI DAN KERANGKA PEMIKIRAN	2
+BAB II	4
+DESKRIPSI USAHA	4
+A. Permasalahan dan Solusi (Problem & Solution Fit)	4
+B. ANALISIS PASAR	6
+C. ANALISIS KOMPETITOR	7
+D. MONETISASI	8
+E. PROFIL TIM	11
+F. TRACTION	12
+RENCANA KEGIATAN DAN PENGGUNAAN ANGGARAN	14
+PROYEKSI LAPORAN LABA RUGI	14
+RENCANA KEGIATAN DAN PENGGUNAAN ANGGARAN	17
+BAB III	21
+PENUTUP	21
+Lampiran	22
+
+
+BAB I
+PENDAHULUAN
+
+A. LATAR BELAKANG
+      Peternakan ayam boiler memiliki peran strategis dalam memenuhi kebutuhan pangan masyarakat, terutama sebagai salah satu sumber protein hewani yang paling banyak dikonsumsi. Namun, tantangan dalam pengelolaan peternakan seringkali muncul akibat kondisi lingkungan yang tidak terjaga dengan baik. Faktor seperti suhu, kelembapan, kualitas udara, dan pencahayaan menjadi parameter krusial yang memengaruhi pertumbuhan ayam, kesehatan, hingga produktivitas hasil ternak. Ketidakseimbangan pada faktor-faktor ini dapat menyebabkan stres pada ayam, menurunkan produktivitas, meningkatkan risiko penyakit, bahkan memicu kematian ayam secara massal.
+      Di tengah perkembangan teknologi industri 4.0, penerapan Internet of Things (IoT) menjadi solusi inovatif dalam mengatasi tantangan tersebut. Teknologi ini memungkinkan pemantauan lingkungan secara real-time dan otomatis, sehingga peternak dapat memperoleh data akurat kapanpun dan dimanapun. Integrasi sistem monitoring suhu, kelembapan, kualitas udara, dan pencahayaan dalam satu platform terpusat akan mempermudah pengawasan, pengambilan keputusan cepat, dan efisiensi pengelolaan peternakan ayam boiler.
+      Proyek ini menghadirkan solusi berbasis teknologi ESP32-Wrover Devsebagai prototipe awal (pengujian), dan Raspberry Pi sebagai sistem final. Selain menyediakan data lingkungan yang komprehensif, sistem ini juga dilengkapi dengan kemampuan streaming video Raspberry Pi Cam dan kontrol kamera melalui servo untuk memastikan pengawasan visual secara lebih efektif. Platform berbasis website publik/aplikasi akan menjadi media utama bagi peternak untuk mengakses data dan melakukan kontrol, menciptakan transparansi sekaligus meningkatkan produktivitas operasional peternakan. Dengan adanya inovasi ini, diharapkan pengelolaan peternakan ayam boiler dapat beralih menuju pendekatan yang lebih modern, efisien, dan berbasis data. Teknologi ini tidak hanya membantu peternak dalam meminimalkan risiko kerugian, tetapi juga berkontribusi terhadap peningkatan kualitas hasil ternak yang lebih sehat dan berkelanjutan.
+B. LANDASAN TEORI DAN KERANGKA PEMIKIRAN
+1. Landasan Teori
+      1.1 Internet of Things (IoT)
+Internet of Things (IoT) adalah konsep di mana berbagai perangkat fisik dapat terhubung ke internet dan saling bertukar data. Teknologi IoT memungkinkan perangkat yang terhubung untuk mengumpulkan, mengirim, dan menerima data, yang memungkinkan pengambilan keputusan otomatis dan pemantauan secara real-time. Dalam konteks peternakan, IoT digunakan untuk memantau kondisi lingkungan (suhu, kelembapan, kualitas udara, dan cahaya) di dalam kandang secara otomatis dan jarak jauh.
+      1.2 Sistem Pemantauan Suhu dan Kelembapan
+Suhu dan kelembapan adalah faktor kunci yang memengaruhi pertumbuhan dan kesehatan ayam. Suhu yang terlalu tinggi atau rendah dapat menyebabkan stres pada ayam, yang berimbas pada penurunan produksi. Oleh karena itu, penting untuk memantau suhu secara terus-menerus. Berbagai penelitian menunjukkan bahwa pengaturan suhu dan kelembapan yang optimal dapat meningkatkan produktivitas peternakan ayam. Sensor suhu dan kelembapan, seperti DHT22 atau BME280, banyak digunakan dalam aplikasi IoT untuk memantau parameter ini secara akurat.
+      1.3 Kualitas Udara dan Cahaya
+Kualitas udara di kandang ayam sangat penting untuk kesehatan ayam. Tingkat CO2 yang tinggi atau kurangnya ventilasi dapat menyebabkan ayam tidak nyaman dan rentan terhadap penyakit. Selain itu, cahaya yang cukup juga penting untuk siklus tidur ayam yang sehat dan produktivitas telur. Sensor kualitas udara (seperti MQ-135 atau MICS5524 ) digunakan untuk memantau kadar CO2, amonia, dan polutan lainnya di dalam kandang. Sensor cahaya, di sisi lain, digunakan untuk memantau intensitas cahaya yang diperlukan untuk kondisi pertumbuhan ayam yang optimal.
+      1.4 Streaming Kamera untuk Pengawasan Visual
+Pengawasan visual menggunakan kamera telah menjadi bagian penting dalam pemantauan jarak jauh. Raspberry Pi Camera memungkinkan pemantauan visual di dalam kandang, memberikan kemampuan untuk melihat langsung kondisi kandang, serta melakukan pengawasan 24/7. Sistem pengawasan ini memberikan peternak kemampuan untuk memonitor kondisi ayam secara langsung, yang berguna untuk mendeteksi masalah seperti penyakit atau kondisi lingkungan yang buruk.
+      1.5 Cloud Computing dan Penyimpanan Data
+Cloud computing memungkinkan data yang dikumpulkan dari sensor dan perangkat IoT untuk disimpan di server jarak jauh dan diakses dari mana saja. Penyimpanan data berbasis cloud memberikan kemudahan akses dan analisis data secara real-time, serta memungkinkan pengguna untuk melakukan pemantauan lebih lanjut dan mengoptimalkan pengambilan keputusan. Beberapa platform cloud yang umum digunakan dalam sistem IoT adalah Google Cloud, AWS IoT, dan Microsoft Azure. Keuntungan menggunakan cloud adalah skalabilitas, keandalan, dan kemudahan integrasi dengan berbagai perangkat IoT.
+
+BAB II
+DESKRIPSI USAHA
+A. Permasalahan dan Solusi (Problem & Solution Fit)
+      Dalam peternakan ayam boiler, pengawasan kondisi lingkungan yang tidak memadai sering kali menyebabkan penurunan kesehatan dan produktivitas ayam. Kondisi cuaca di Indonesia selalu berubah-ubah tidak menentu. Peternak kesulitan untuk melakukan pemantauan suhu, kelembapan, kualitas udara, dan pencahayaan secara manual. Dengan adanya kekurangan dalam hal tersebut tentu dapat mengurangi tingkat penjualan ayam broiler yang dapat menyebabkan kerugian bagi para peternak. Oleh karena itu, diperlukan solusi yang efisien dan otomatis. Penemuan : 60% peternak ayam boiler di Asia Tenggara menggunakan metode pemantauan manual yang tidak efisien dan tidak akurat. Pengawasan manual meningkatkan risiko kesalahan, terutama dalam menjaga suhu dan kelembapan stabil. Sumber : McKinsey & Company, The Role of IoT in Agriculture, 2023
+      Untuk mengatasi permasalahan tersebut, kami mengusulkan penggunaan sistem pemantauan berbasis IoT yang terintegrasi dengan berbagai sensor (suhu, kelembapan, kualitas udara, cahaya) serta kamera streaming untuk pengawasan visual seperti . Sistem ini akan mengirimkan data secara real-time ke cloud, memungkinkan peternak untuk memantau kondisi kandang dari jarak jauh melalui website publik. Dengan adanya sistem IoTernak ini diharapkan para peternak mendapatkan kemudahandan tidak mengalami kerugian pada penjualan ayam broiler mereka. Pada sistem IoTernak ini terdapat beberapa keunggulan yang dapat memberikan keuntungan bagi para peternak, yakni sebagai berikut:
+? Unique Value Proposition (UVP)
+Fokus Utama: Pengembangan sistem akhir dengan fitur yang lebih canggih, akurat, dan dapat di implementasi-kan dalam skala penuh di lapangan.
+> Kontrol Pan-Tilt Kamera:
+Dengan menggunakan servo motor yang dikontrol melalui Raspberry Pi, sistem Anda memungkinkan kamera bergerak secara horizontal dan vertikal (pan-tilt). Ini memberikan jangkauan pandang 360° atau (wide angle) di dalam kandang, fitur yang jarang ditemukan pada produk komersial.
+Keunikan: Dengan Kontrol (pan-tilt) Peternak dapat memantau seluruh area kandang tanpa perlu menambah kamera tambahan, menghemat biaya dan meningkatkan efisiensi pengawasan.
+> Deteksi Visual Adaptif:
+Raspberry Pi Cam mendukung integrasi Camera AI dengan berbagai sistem seperti (mood-detection, Time-lapse) algoritma Computer Vision sederhana seperti deteksi pergerakan ayam atau area kosong.
+Keunikan: Dengan fitur ini, sistem dapat memberikan notifikasi dini jika terdapat aktivitas tidak normal seperti ayam bergerombol di satu sisi kandang (indikasi suhu tinggi) atau kosongnya area tertentu serta objek mencurigakan seperti (Pencurian, hama dan dll).
+> Modularitas dan Skalabilitas:
+Raspberry Pi sebagai pusat kendali memungkinkan penambahan sensor tambahan (seperti sensor CO2 profesional, sensor kebisingan, dll.) jika dibutuhkan. Sistem ini bisa diintegrasikan dengan beberapa Raspberry Pi Camera dan sensor di berbagai titik kandang untuk pemantauan lebih luas. 
+Keunikan: Solusi ini lebih fleksibel dibandingkan sistem komersial yang bersifat tertutup dan sulit dikembangkan lebih lanjut.
+> Efisiensi Energi dengan Raspberry Pi
+Raspberry Pi memiliki konsumsi daya rendah (rata-rata 5-10 watt) dibandingkan sistem pengawasan tradisional yang memerlukan server besar. Dengan penggunaan baterai atau panel surya, proyek Anda bisa menjadi ramah lingkungan dan hemat energi.
+      
+Sumber gambar: www.marketresearchfuture.com
+Keunikan: Sistem dapat berjalan dalam kondisi daya listrik tidak stabil atau di lokasi off-grid
+B. ANALISIS PASAR
+
+
+1. Targeting Berdasarkan Jenis Pengguna
+* Peternak Kecil hingga Menengah:
+Peternak ( Closed House ) dengan skala produksi ayam boiler di bawah 10.000 ekor per siklus. Mereka umumnya menghadapi keterbatasan sumber daya manusia untuk pengawasan lingkungan secara manual. Solusi IoT yang efisien biaya dan mudah digunakan menjadi solusi tepat bagi segmen ini.
+* Peternak Besar:
+Peternakan ( Closed House )yang memiliki kapasitas produksi lebih dari 10.000 ekor per siklus. Meskipun sudah memiliki sistem pemantauan. implementasi solusi customizable dan scalable seperti ini dapat menjadi pilihan untuk meningkatkan efisiensi operasional.
+2. Segmentasi Berdasarkan Lokasi Geografis
+* Wilayah Pedesaan dan Semi-Urban :
+Mayoritas peternakan ayam boiler di Indonesia terletak di wilayah pedesaan dan semi-urban yang memiliki akses terbatas terhadap teknologi canggih. Wilayah ini memiliki potensi besar untuk implementasi teknologi IoT berbasis solusi sederhana dan low-cost seperti sistem Raspberry Pi
+o Alasan :
+* Infrastruktur jaringan internet mulai berkembang (akses Wi-Fi dan jaringan seluler 4G/5G).
+* Peternakan skala kecil hingga menengah membutuhkan sistem monitoring yang dapat diakses dari jarak jauh dan hemat biaya
+* Wilayah Perkotaan :
+Mayoritas peternakan industri skala besar yang lebih maju membutuhkan solusi IoT yang terintegrasi cloud dan mendukung automasi secara penuh.
+o Alasan:
+* Teknologi IoT dapat membantu dalam analisis data besar (Big Data) untuk efisiensi produksi.
+* Peternakan di perkotaan lebih siap dengan infrastruktur teknologi.
+3. Positioning 
+      IoTernak ini memposisikan dirinya sebagai solusi digital dalam mengoptimalisasikan peternakan ayam modern. Produk usaha IoTernak ini memberikan kemudahan bagi para peternak untuk dapat melakukan pemantauan dari jarak jauh pada usaha peternaknnya. Dengan adanya IoTernak ini, suhu, kelembaban, kualitas udara dan pencahayaan dapat dipantau dengan baik. Diharapkan dengan adanya IoTernak ini dapat mengurangi tingkat kematian ayam dikarenakan faktor-faktor tersebut.
+C. ANALISIS KOMPETITOR
+	IoTernak mengidentifikasi adanya kompetitor sejenis yang juga menjual produk untuk pemantauan peternakan ayam yang dijual secara online. Hal ini menandakan adanya persaingan yang cukup kuat dengan penjualan secara online yang mengadopsi kekuatan branding secara penuh. Meskipun begitu produk IoTernak dapat mengalahkan pasar dengan keunikan yang diberikan. Harga yang diberikan jauh lebih sepadan dengan spesifikasi produk yang memiliki keunggulan dibanding kompetitornya. Dimana terdapat ebberapa keunikan seperti penggunaan kontrol pan tilt kamera dan deteksi visual adaptif dengan menggunakan raspberry pi.
+D. MONETISASI
+1. Marketplace Lokal
+      Marketplace lokal memiliki potensi besar untuk menjangkau peternak di seluruh Indonesia, termasuk di daerah pedesaan yang semakin aktif dalam berbelanja online. Platform ini memberikan akses mudah kepada peternak untuk memperoleh produk IoTernak dengan sistem pembayaran yang beragam, seperti transfer bank, e-wallet. Dengan jangkauan yang luas, platform ini akan memudahkan proses transaksi bagi peternak dari berbagai kalangan, memastikan produk dapat dengan cepat dan aman sampai di tangan pelanggan.
+2. Website Resmi IoTernak
+      Penjualan langsung melalui website resmi memberikan keunggulan eksklusivitas, Melalui website, kami juga dapat memberikan layanan konsultasi teknis dan panduan Penggunaan yang lebih terperinci, serta menyediakan sistem pembayaran online yang aman.
+A. Paket Full IoTernak
+Paket ini menawarkan solusi komprehensif dengan harga yang di sesuai pasaran untuk peternakan besar dan kecil, termasuk semua fitur dengan bracket Rotasi pan-till untuk pengaturan sudut kamera secara otomatis dan sistem camera AI dan camera Thermal (opsional) Serta sensor yang di butuhkan peternakan ayam Yang lengkap dengan penyimpanan cloud untuk data analitik. Dengan kemampuan ini, peternak dapat mengontrol lingkungan kandang secara lebih efektif dan mengakses data historis secara online untuk analisis yang lebih mendalam.
+3. Promosi Digital IoTernak
+      Promosi digital akan menjadi bagian integral dari strategi pemasaran IoTernak, dengan fokus pada edukasi pasar dan penyuluhan tentang manfaat penggunaan teknologi IoT dalam peternakan. Strategi promosi ini dirancang untuk memberikan informasi yang jelas dan bermanfaat mengenai cara IoTernak dapat membantu meningkatkan produktivitas peternakan.
+A. Iklan Digital
+      Kampanye iklan digital IoTernak dirancang untuk menjangkau segmen 	peternak di Indonesia, khususnya mereka yang mulai mengadopsi 		teknologi modern untuk meningkatkan efisiensi peternakan. Beberapa 	platform yang akan dimanfaatkan adalah :
+* Instagram Ads: Menyasar peternak yang mencari solusi melalui konten visual. Iklan video pendek, yang menjelaskan fungsi produk dan manfaatnya, dapat ditampilkan sebagai iklan pre-roll sebelum video terkait agribisnis atau teknologi IoT.
+Alasan Strategis :
+
+Menurut data Dataindonesia.id (2024), 60% - 70% populasi Indonesia adalah pengguna aktif media sosial dan lebih dari 75% mengakses internet untuk mencari solusi teknologi. Ini menunjukkan potensi besar untuk menjangkau peternak melalui kanal digital.
+4. Kemitraan IoTernak
+Kemitraan IoTernak dirancang untuk memperluas akses pasar, meningkatkan daya saing produk, dan memperkuat keberlanjutan teknologi dalam menghadapi kompetitor seperti BroilerX dan Kandang Pintar. Strategi ini bertumpu pada kolaborasi dengan pemerintah, akademisi, perusahaan teknologi, dan komunitas peternak lokal yang telah diidentifikasi sebagai pemangku kepentingan utama di sektor peternakan Indonesia.
+1) Mendukung Pemasaran dan Penjualan di Indonesia melalui Kemitraan (Kolaborasi dengan Pemerintah dan Asosiasi)
+Kemitraan ini berperan sebagai penghubung antara IoTernak dan pasar, khususnya untuk menjangkau peternak kecil dan menengah. Pemerintah Indonesia saat ini sedang mendorong digitalisasi peternakan melalui program seperti Digital Farming 4.0 yang relevan dengan produk IoTernak. Pendekatan Strategis nya
+IoTernak dapat menjadi bagian dari program-program pemerintah melalui :
+* Digitalisasi Peternakan: Memberikan solusi IoT yang membantu peternak skala kecil meningkatkan produktivitas mereka dengan biaya minimal melalui subsidi perangkat IoT.
+* Kerja sama dengan dinas peternakan daerah untuk memperkenalkan teknologi IoT ke sentra peternakan, seperti Blitar (sentra ayam broiler) atau Lombok (peternakan sapi).
+2) Kemitraan dengan (Institusi Akademik Institusi) akademik berperan dalam validasi teknologi, pelatihan, dan penelitian pengembangan IoTernak.
+* Universitas seperti IPB, UGM, dan ITB memiliki jaringan riset di bidang peternakan dan teknologi IoT.
+* Data dari kerja sama ini dapat digunakan untuk mempublikasikan hasil studi yang menunjukkan efektivitas IoTernak, sehingga meningkatkan kepercayaan pasar.
+3) Kerja Sama dengan Distributor Lokal
+Untuk memastikan ketersediaan produk secara luas di pasar Indonesia, IoTernak dapat bermitra dengan distributor perangkat keras, yang memiliki jaringan nasional untuk pendistribusian komponen IoT.
+4) Kerja Sama dengan Penyedia Layanan Internet (Internet Service Provider - ISP)
+Kemitraan dengan perusahaan teknologi jaringan internet atau start-up di sektor teknologi komunikasi, seperti Net1 Indonesia atau penyedia layanan internet berbasis komunitas, memungkinkan terciptanya integrasi lintas sektor antara penyedia jaringan dan teknologi IoT peternakan. Hal ini dapat menghadirkan solusi konektivitas terpadu untuk pelanggan besar, seperti korporasi peternakan atau koperasi daerah, sehingga mempermudah pengelolaan jaringan internet yang stabil, termasuk di wilayah terpencil. Kemitraan ini juga membuka peluang inovasi bersama, seperti penggunaan perangkat komunikasi berbasis LoRa atau pengembangan jaringan WiFi lokal yang mendukung perangkat IoT secara optimal.
+Strategi kemitraan ini dirancang untuk mendukung pemasaran dan penjualan IoTernak dengan mengintegrasikan inovasi, distribusi, dan promosi berbasis bukti. Dengan melibatkan pemerintah, akademisi, dan komunitas lokal, IoTernak dapat meningkatkan penerimaan pasar sekaligus bersaing secara efektif dengan kompetitor di industri teknologi peternakan.
+E. PROFIL TIM
+      Tim yang terlibat dalam proyek (IoTernak) terdiri dari individu-individu yang memiliki tugas di berbagai bidang, mulai dari desain produk, pemasaran, pengelolaan anggaran, hingga pengujian kualitas produk. Setiap anggota tim memiliki tanggung jawab yang jelas, dan bersama-sama mereka bekerja untuk mewujudkan tujuan proyek ini. Berikut adalah uraian mengenai anggota tim beserta tugas nya masing-masing :
+AnggotaTugas1. Muhammad Luthfi Poeradiredja Hipster (Product Designer & Production)
+Sebagai seorang hipster, Luthfi memiliki tugas dalam perancangan sistem monitoring, baik dari segi desain perangkat keras maupun perangkat lunak. Dengan pengalamannya, ia bertanggung jawab memastikan bahwa prototipe dirancang dengan efektif dan dapat berfungsi optimal sesuai kebutuhan.2. Siti JulaehaHustler (Business & Marketing Strategist)
+Siti Julaeha memiliki tugas hustler dalam mengelola strategi bisnis dan pemasaran. Ia fokus pada pengembangan visi dan rencana pemasaran untuk memastikan produk dapat diterima dengan baik oleh pasar dan memenuhi kebutuhan konsumen.3. Sri AyatmiHacker (Finance & Budgeting Specialist)
+Sebagai seorang hacker, Sri memiliki tugas dalam pengelolaan anggaran dan alokasi dana yang efisien. Ia bertanggung jawab untuk memastikan keuangan proyek berjalan lancar, dari tahap pengembangan hingga implementasi.4. Aji LesmanaHacker (Quality Assurance)
+Aji Lesmana bertanggung jawab dalam melakukan pengujian kualitas untuk memastikan prototipe berfungsi sesuai tujuan. Ia bertugas menemukan dan memperbaiki potensi masalah pada produk sebelum diluncurkan.5. Ahmad Rizal Pramuja DewaHustler (Marketing & Public Relations)
+Ahmad Rizal memiliki tanggung jawab sebagai komunikasi yang baik dalam mempromosikan produk ke pasar luar, baik secara online maupun offline. Ia bertanggung jawab menjangkau konsumen dan memperkenalkan keunggulan produk secara luas.
+F. TRACTION
+1. Mempertahankan dan meningkatkan kualitas produk: Semakin baik kualitas pada produk, semakin banyak pula peminat dan pelanggan yang akan kembali serta dapat merekomendasikan kepada orang lain.
+2. Pemasaran yang efektif: Pemasaran yang efektif dapat membantu meningkatkan pengenalan produk pada khalayak umum.
+3. Program Referral: Mengoptimalisasikan peningkatan pengguna dengan memberikan insentif kepada pengguna untuk merekomendasikan produk IoTernak ini kepada orang lain.
+
+RENCANA KEGIATAN DAN PENGGUNAAN ANGGARAN
+Tahapan UsahaKegunaanPersentase MaksimalAwalPengembangan Produk/Riset 12.25%Rp600.000Produksi 48.84%Rp2.410.000Legalitas, perizinan, sertifikasi, pengujian produk, dan standarisasi 20.26%Rp1.000.000Belanja ATK dan Penunjang 18.73%Rp924.967TotalRp4.934.967
+PROYEKSI LAPORAN LABA RUGI
+IoTernakPenjualan (1-30 Januari 2025)Nama ProdukHarga/UnitTarget Penjualan/bulanTotalIoTernakRp5.050.0003 PaketRp15.150.000Total PenjualanRp15.150.000Pengeluaran (1-30 Januari 2025)Biaya ProduksiHarga/UnitKuantitasJumlah HargaA. IoTernakRp2.410.0001 PaketRp2.410.000Total Biaya Produksi 3 Paket/bulan Rp7.230.000Biaya OperasionalHargaKuantitasJumlah HargaA. Biaya Pemasaran (E-commerce & media sosial)> Rp400.000> 1Rp400.000B. Biaya ATK (Buku Nota, alat tulis, stiker, dll)> Rp300.000> 1Rp300.000C. Biaya HostingRp500.0001 PaketRp500.000D. Biaya ListrikRp124.9671 BulanRp124.967E. Biaya TransportasiRp200.0001 BulanRp200.000F. Biaya Legalitas UsahaRp1.000.0001Rp1.000.000Total Biaya OperasionalRp2.524.967Total Biaya ProduksiRp7.230.000Total Biaya OperasionalRp2.524.967Total PengeluaranRp9.754.967
+IoTernakProyeksi Laporan Laba Rugi (1-30 Januari 2025)Proyeksi Penjualan  Rp15.150.000Proyeksi Pendapatan non penjualan (jika ada)  Rp0Total proyeksi Pendapatan Rp15.150.000Proyeksi Harga Pokok Penjualan (HPP) Rp2.410.000Total Proyeksi Harga Pokok Penjualan (HPP) Rp7.230.000Total Proyeksi Laba KotorRp7.920.000Proyeksi Beban-beban: A. Biaya Pemasaran (E-commerce & media sosial)Rp400.000B. Biaya ATK (Buku Nota, alat tulis, stiker, dll)Rp300.000C. Biaya HostingRp500.000D. Biaya ListrikRp124.967E. Biaya TransportasiRp200.000F. Biaya Legalitas UsahaRp1.000.000Beban Penyusutan Harta Tetap Rp0Total Proyeksi Beban Rp2.524.967Total Proyeksi Laba Bersih 1 BulanRp5.395.033
+RENCANA KEGIATAN DAN PENGGUNAAN ANGGARAN
+Kegiatan UtamaRencanaPenanggung JawabKegiatanNama BarangKuantitasSatuanHarga satuan (RP)Jumlah (Rp)Keterangan/ Referensi HargaTarget CapaianABCDEF=(C x E)GH= Output APengembangan Produk/RisetMarketing Online> E-Commerce dan media sosial> 1
+> Bulan> 600.000
+> 600.000
+> Tokopedia
+> Instagram
+> Facebook
+> TiktokMenjangkau calon pelanggan yang lebih luas dan peningkatan sistemSiti JulaehaProduksia. Pengembangan sistem perangkat IoT
+> Casing Raspberry Pi
+> 1
+
+
+unit
+
+77.500
+
+77.500
+Tokopedia
+Prototipe dengan casing aman
+Pendinginan Muhammad Luthfi Poeradiredja
+ > Fan 5V> 1
+unit43.30043.300Tokopedia> Heatsink Raspberry Pi 3
+1
+unit
+14.600
+14.600
+Tokopedia> Adaptor 5V 3A Real + Kabel USB C1unit64.90064.900Tokopedia> MicroSDHC Lexar 64GB/128GB1unit200.500200.500Tokopedia
+> Bracket Pan-Tilt & Servo MG996R1set138.800138.800Tokopedia
+> Sensor BH1750FVI Lux Light Sensor1unit77.40077.400Tokopedia
+> MICS5524 MICS-5524 Sensor1unit151.900151.900Tokopedia
+> GY-BME280 Barometric Pressure Sensor1unit101.500101.500Tokopedia
+> Raspberry Pi - UPS Shield Voltage1unit381.800381.800Tokopedia
+> RTC DS3231 Real Time Clock I2C1unit49.20049.200Tokopedia> Jumper Male to Female & Male to Male (2 paket)2paket27.400108.600Tokopedia
+> Raspberry Pi 3B> 1
+> 1
+> 500.000> 500.000Tokopedia
+> Raspberry Pi Camera Module 3 V3 12MP> 1> 1> 500.000> 500.000Tokopedia
+
+
+Legalitas, Perijinan, Sertifikasi, Pengujian Produk, dan StandarisasiPendaftaran merek dagang> Biaya pendaftaran merek dagang1paket1.000.0001.000.000
+Mengacu pada biaya DJKI (Direktorat Jenderal Kekayaan Intelektual) (https://www.dgip.go.id/)Merek resmi terdaftar dan usaha secara legalAji LesmanaBelanja ATK dan PenunjangMemenuhi Penunjang
+> Biaya Hosting cloud dan webstie> 1
+> Paket> 500.000> 500.000> HostingerUntuk memenuhi kebutuhan hosting dan administrasi penunjang ATK serta website IoTernakSri AyatmiMengolah ATK> Buku Nota, alat tulis, & stiker> 1
+> Buah> 300.000> 300.000> Tokopedia> Biaya Listrik> 1> Bulan> 124.967> 124.967> Biaya Transportasi> 1> Bulan> 200.000> 200.000Total Rp4.934.967
+BAB III
+PENUTUP
+      Dalam menghadapi tantangan di sektor peternakan ayam modern, pengembangan teknologi berbasis Internet of Things (IoT) menjadi salah satu solusi strategis untuk meningkatkan efisiensi, produktivitas, dan kesejahteraan hewan. Proposal ini menghadirkan sistem pemantauan berbasis IoT yang dapat membantu peternak mengelola lingkungan kandang secara optimal, memantau kesehatan ternak secara real-time, dan mengurangi risiko kerugian.
+      Melalui implementasi solusi ini, diharapkan dapat tercipta inovasi yang tidak hanya memberikan dampak positif bagi peternak, tetapi juga mendukung keberlanjutan sektor peternakan secara keseluruhan. Kami meyakini bahwa dengan dukungan yang tepat, baik berupa pendanaan maupun kolaborasi, program ini dapat direalisasikan secara optimal dan memberikan manfaat yang signifikan bagi masyarakat luas.
+      Kami berkomitmen untuk menjalankan proyek ini dengan penuh tanggung jawab dan dedikasi, serta terus berinovasi demi menciptakan solusi yang relevan dan berkelanjutan. Besar harapan kami, proposal ini dapat menjadi langkah awal dalam mewujudkan transformasi peternakan ayam yang lebih modern, efisien, dan ramah lingkungan.
+Lampiran
+A. PENGEMBANGAN PROTOTIPE SISTEM
+1. Desain Sistem
+
+1) Sensor: Sensor suhu, kelembapan, kualitas udara, dan cahaya akan dipasang di beberapa titik di kandang untuk memastikan data yang akurat.
+2) Raspberry Pi Cam: Sebagai sistem pemantauan camera cerdas untuk pemrosesan dan manajemen data, serta menyambungkan perangkat ke cloud.
+3) Cloud: Penyimpanan data akan dilakukan di cloud untuk analisis jangka panjang dan aksesibilitas data.
+4) Website: Interface untuk pemantauan data secara real-time akan diakses melalui website publik, memungkinkan pengguna mengontrol dan memantau status kandang kapan saja.
+2. Implementasi Sistem
+
+* Pengujian Sistem (implementasi sederhana) : Menggunakan ESP32-Wrover untuk menguji integrasi sensor dan kamera internal
+*   Deskripsi Prototipe :
+Prototipe ini dirancang untuk menguji dan memvalidasi konsep dasar dari sistem monitoring pengawasan di peternakan ayam boiler. Dengan menggunakan komponen sederhana seperti ESP32 Wrover CAM, sensor cahaya, sensor suhu, dan sensor gas, sistem ini bertujuan untuk memberikan pengawasan secara real-time dan pemantauan lingkungan secara efektif.
+KomponenFungsi
+
+
+
+
+
+
+
+
+
+
+
+ESP32-CAM> Berfungsi sebagai inti pemrosesan data dengan Pin GPIO untuk pengendali seluruh sistem.
+> Dapat menangkap gambar/video real-time dengan start stream ke website monitoring publik.
+> Wi-Fi bawaan memungkinkan koneksi ke cloud atau server lokal tanpa memerlukan perangkat tambahan.MQ-135 Sensor
+> Detektor gas berbahaya seperti amonia (NH3), karbon dioksida (CO2), atau metana (CH4).
+> Memastikan lingkungan tetap aman untuk ayam dengan memberikan data kualitas udara secara real-time.Sensor Cahaya (LDR)
+> sensor LDR (Light Dependent Resistor) untuk mengukur intensitas cahaya
+> Mengukur tingkat pencahayaan di sekitar kandang untuk memastikan ayam mendapatkan cukup cahaya alami atau buatan.DHT22 Sensor
+> Bisa digunakan untuk memonitor suhu dan mengirimkan data secara otomatis ke dashboard di website atau cloud.
+> Sensor akurasi tinggi untuk mendeteksi suhu dan kelembapan lingkungan di dalam kandang.
+* Langkah Implementasi Program Sederhana :
+Prototipe IoTernak dirancang untuk memantau kondisi lingkungan peternakan ayam boiler secara real-time. Sistem ini mengintegrasikan ESP32-Wrover untuk beberapa sensor (DHT22, MQ-135, dan LDR) untuk membaca parameter lingkungan. Data dipantau melalui antarmuka web/aplikasi  yang dapat diakses melalui jaringan lokal atau internet.
+
+1) Skema Koneksi
+Semua komponen dihubungkan ke pin GPIO untuk pengendali dan mengirimkan sinyal atau program ke sensor serta ke ESP32-Wrover sesuai dengan fungsinya :
+a. Sensor DHT22 ? Pin GPIO14
+Mengukur suhu dan kelembapan lingkungan peternakan.
+b. Sensor MQ-135 ? Pin GPIO12
+Mendeteksi kualitas udara, termasuk keberadaan gas berbahaya (seperti amonia).
+c. Sensor LDR ? Pin GPIO13
+Mengukur intensitas cahaya untuk memastikan pencahayaan sesuai kebutuhan ayam boiler.
+d. Modul FTDI: Digunakan untuk memprogram ESP32-Wrover
+e. Catu Daya: Sumber daya 5V melalui adaptor, USB Data atau power bank.
+2) Pemrograman Modul
+
+  
+   Data dari sensor DHT22 (suhu dan kelembapan), MQ-135 (kualitas udara), dan LDR (intensitas cahaya) diproses dan dikirimkan dalam 	bentuk angka yang mudah dipahami oleh pengguna. ESP32-	WROVER-DEV terhubung ke jaringan WiFi lokal menggunakan kredensial yang dimasukkan dalam program. Program diunggah ke ESP32-WROVER-DEV menggunakan software Arduino IDE. Program ini memungkinkan modul untuk Sensor membaca data lingkungan setiap interval tertentu. Streaming video dapat diakses secara bersamaan melalui halaman web.
+
+
+
+
+
+* Prototipe Final : Menggunakan Raspberry Pi yang lebih powerful untuk pengolahan data gambar atau video stream smart AI, penyimpanan di cloud, dan akses melalui website.
+Contoh KomponenFungsi
+
+ Sumber gambar: cults3d.com
+
+
+
+      Sumber gambar: th.cytron.io
+
+> Raspberry Pi Camera:
+* Berfungsi untuk menangkap gambar dan video berkualitas tinggi dengan resolusi 12MP.
+* Menyediakan kemampuan pengambilan gambar/video secara real-time yang dapat langsung di-streaming ke website untuk monitoring.
+> Casing Raspberry Pi:
+* Melindungi Raspberry Pi dari kerusakan fisik serta debu dan kotoran.
+* Membantu menjaga kestabilan suhu Raspberry Pi dengan sirkulasi udara dengan Pan Cooling yang baik.
+
+
+
+
+
+       
+> Output Program
+
+Sumber gambar: Farmworx
+* Antarmuka Web:
+Sistem menampilkan data real-time berupa suhu, kelembapan, kualitas udara, dan intensitas cahaya dalam format yang sederhana, serta menyediakan streaming video dari kamera.
+* Aksesibilitas:
+Sistem ini mudah diakses dari perangkat apa pun (laptop, tablet, atau smartphone) selama terhubung ke jaringan WiFi yang sama.
+
+
+B. Tren Penggunaan Teknologi IoT di Bidang Peternakan
+* Pasar Global IoT di Sektor Peternakan
+Berdasarkan laporan Market Research Future (MRFR), nilai pasar teknologi IoT di sektor pertanian/peternakan diperkirakan mencapai USD 18,43 Miliar pada tahun 2024 menjadi USD 71,75 miliar pada tahun 2032 dengan CAGR sekitar 18,52% selama periode perkiraan (2024 - 2032).
+
+
+* Pasar Lokal IoT di Sektor Peternakan
+> Efisiensi Usaha Peternakan dengan IoT
+Teknologi IoT membantu mengontrol suhu kandang ayam untuk menjaga tumbuh kembang ayam agar optimal. Suhu yang tidak ideal dapat menurunkan bobot ayam karena mengganggu pola makan. Teknologi ini juga membantu memantau kondisi ayam secara real-time menggunakan sensor dan perangkat yang terhubung ke cloud, sehingga peternak dapat mengakses data kapanpun dan di manapun. Selain ayam, penerapan IoT juga digunakan pada smart farming seperti pengelolaan domba dan sapi dengan sensor pendeteksi kondisi hewan dan lokasi ternak. (Referensi : Universitas Brawijaya dan Inteknova
+Sumber gambar: www.broilerx.com
+
+> Adopsi Teknologi IoT
+Adopsi teknologi IoT di sektor peternakan ayam di Indonesia masih dalam tahap pengembangan, namun semakin mendapat perhatian. Sistem IoT telah berkembang dari konvergensi teknologi nirkabel, micro-electromechanical systems (MEMS), dan internet. digunakan untuk memantau suhu kandang, kelembapan, dan kualitas udara, yang sangat memengaruhi kesehatan ayam. Contoh teknologi seperti Smart Poultry Farm memungkinkan peternak memonitor kandang secara real-time melalui sensor dan platform digital berbasis cloud. (Referensi : IPB Journal, poultryindonesia.com)
+> Pengurangan Beban Kerja dan Biaya Operasional:
+Dengan teknologi IoT, peternak tidak perlu memberi makan secara manual berkali-kali dalam sehari. Misalnya, sistem otomatis dapat membantu memberi pakan ikan atau ayam secara terjadwal. Ini dapat meningkatkan produktivitas dan menurunkan biaya operasional, memungkinkan peternak mengelola ternak dalam jumlah lebih banyak dengan sumber daya minimal. (Referensi : Data Sains Inteknova)
+  Sumber gambar: www.datasains.co.id
+
+
+      
+
+
+
+
